@@ -104,12 +104,17 @@ Above 70 percent it was noticed that the DHT22 and BME680 don't follow each othe
 DHT22 has a humidity resolution of 0.1 percent.
 
 ### Temperature Accuracy
+Opened:
 
-![DHT22 Temperature Test Setup](imageb.png)
+![DHT22 Temperature Test Setup](https://github.com/Ahilnandan/Hydration_Monitoring/blob/main/Testing_setups/DS18B20_testing.jpg)
+
+Closed:
+
+![DHT22 Temperature Test Setup](https://github.com/Ahilnandan/Hydration_Monitoring/blob/main/Testing_setups/DS18B20_TESTING_.jpg)
 
 We used a thermocol box to characterize the temperature accuracy.
 
-![DHT22 vs BME680 Temperature Comparison](imagea.png)
+![DHT22 vs BME680 Temperature Comparison](https://github.com/Ahilnandan/Hydration_Monitoring/blob/main/test_logs/DHT22/Temperature_accuracy.jpg)
 
 DHT22 compared to the reference sensor BME680. The error is to be very minimal.
 
@@ -119,7 +124,7 @@ DHT22 has a resolution of 0.1 Celsius.
 
 The **DS18B20** is a digital thermometer that provides **precise temperature readings** via a **1-Wire** interface. It is ideal for measuring **body surface temperature** in hydration or physiological monitoring systems due to its compact size, waterproof variants, and digital accuracy.
 
-![DS18B20 Temperature Analysis](imagec.png)
+![DS18B20 Temperature Analysis](https://github.com/Ahilnandan/Hydration_Monitoring/blob/main/test_logs/DS18B20/Temperature_Accuracy.jpg)
 
 It has approximately 0.06 degrees resolution and 1.5 degrees upward drift.
 
@@ -131,7 +136,7 @@ As you notice in the graph below you will see a drop in the GSR after a rise. A 
 
 The maximum in the graph is around 10 minutes after water intake.
 
-![Field Trial Results](imaged.png)
+![Field Trial Results](https://github.com/Ahilnandan/Hydration_Monitoring/blob/main/Field_Test/GSR.jpg)
 
 ## TRL 8 Goals
 
