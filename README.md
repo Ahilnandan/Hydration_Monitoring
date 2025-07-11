@@ -138,7 +138,9 @@ The maximum in the graph is around 10 minutes after water intake.
 **Field Environment Simulation:** Test system performance in intended deployment conditions.
 
 • All documentation uploaded: code, BOM, graphs, risk log
+
 • Sensor-swap readiness statement included
+
 • Noise & warm-up drift quantified
 
 ## Conclusion (Indian Sensor Replacement Plan)
