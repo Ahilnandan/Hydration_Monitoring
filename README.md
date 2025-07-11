@@ -46,7 +46,7 @@ Difference in output when input increases versus when it decreases.
 
 The GSR (Galvanic Skin Response) sensor measures skin resistance, which varies with hydration and sweat levels. In this system, the baseline is set to 0 and the maximum value is capped at 2850 after drift compensation.
 
-![alt text](image-1.png)
+
 
 The above graph for GSR accuracy was plotted by using a known resistance value of 2MΩ and the expected and observed GSR values were found considering the internal resistance of the Grove GSR's voltage divider and max reading of 2850 the GSR is calculated for complete conduction.
 
@@ -58,11 +58,10 @@ The following statistical parameters were found:
 2. Average: 245.5 (After Correction)
 3. RMS Error: 15.93
 
-![alt text](image-2.png)
 
 We used a 2 MegaOhm resistor with 130 KiloOhm increments to find linearity and fit the optimal curve for comparison.
 
-![alt text](image-3.png)
+
 
 We used this novel setup for characterizing the GSR sensors. This particular setup was used to measure the linearity of the GSR sensor.
 
@@ -71,18 +70,17 @@ The GSR sensor can take the set of whole numbers ranging from 0 to 2850.
 
 **Drift:**
 
-![alt text](image-4.png)
+
 Even after operating for 12 hours no significant drift was found.
 
 **Precision:**
 On testing out with the same resistance after a cool down period it was found the readings could be replicated.
 
-![alt text](image-5.png)
 
 **Hysteresis:**
 It is found that the GSR sensor lacks memory, which is a good thing. We increased the resistance and then decreased it to find that it traced its own path.
 
-![alt text](image-6.png)
+
 
 ## DHT22
 
@@ -92,11 +90,8 @@ The **DHT22** is a digital sensor used to measure **ambient temperature** and **
 
 **Setup:**
 
-![alt text](image-7.png)
 
 The above setup was used. A sealed container containing saturated table salt solution maintains a relative humidity of 75.5 percent, no matter what the ambient conditions are. Hence, we plotted the graphs for comparing the accuracy of DHT22 vs BME680.
-
-![alt text](image-8.png)
 
 Above 70 percent it was noticed that the DHT22 and BME680 don't follow each other but below 70 percent they follow each other. There is a fixed deviation of 4.5 percent.
 
@@ -104,7 +99,7 @@ DHT22 has a humidity resolution of 0.1 percent.
 
 ### Temperature Accuracy
 
-![alt text](image-9.png)
+
 
 We used a thermocol box to characterize the temperature accuracy.
 
@@ -118,7 +113,7 @@ DHT22 has a resolution of 0.1 Celsius.
 
 The **DS18B20** is a digital thermometer that provides **precise temperature readings** via a **1-Wire** interface. It is ideal for measuring **body surface temperature** in hydration or physiological monitoring systems due to its compact size, waterproof variants, and digital accuracy.
 
-![alt text](image-11.png)
+
 
 It has approximately 0.06 degrees resolution and 1.5 degrees upward drift.
 
@@ -130,7 +125,7 @@ As you notice in the graph below you will see a drop in the GSR after a rise. A 
 
 The maximum in the graph is around 10 minutes after water intake.
 
-![alt text](image-12.png)
+
 ## TRL 8 Goals
 
 ### Testing Plan (TRL-8 Readiness)
