@@ -103,7 +103,6 @@ DHT22 has a humidity resolution of 0.1 percent.
 
 We used a thermocol box to characterize the temperature accuracy.
 
-![alt text](image-10.png)
 
 DHT22 compared to the reference sensor BME680. The error is to be very minimal, around [value not specified in original].
 
