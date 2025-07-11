@@ -111,7 +111,7 @@ We used a thermocol box to characterize the temperature accuracy.
 
 ![DHT22 vs BME680 Temperature Comparison](imagea.png)
 
-DHT22 compared to the reference sensor BME680. The error is to be very minimal, around [value not specified in original].
+DHT22 compared to the reference sensor BME680. The error is to be very minimal.
 
 DHT22 has a resolution of 0.1 Celsius.
 
