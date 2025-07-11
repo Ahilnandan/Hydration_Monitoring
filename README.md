@@ -58,7 +58,7 @@ The following statistical parameters were found:
 2. Average: 245.5 (After Correction)
 3. RMS Error: 15.93
 
-![GSR Linearity Graph]([image3.png](https://github.com/Ahilnandan/Hydration_Monitoring/blob/main/test_logs/GSR/Linearity_Test.jpg))
+![GSR Linearity Graph](https://github.com/Ahilnandan/Hydration_Monitoring/blob/main/test_logs/GSR/Linearity_Test.jpg)
 
 We used a 2 MegaOhm resistor with 130 KiloOhm increments to find linearity and fit the optimal curve for comparison.
 
