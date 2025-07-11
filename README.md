@@ -46,7 +46,7 @@ Difference in output when input increases versus when it decreases.
 
 The GSR (Galvanic Skin Response) sensor measures skin resistance, which varies with hydration and sweat levels. In this system, the baseline is set to 0 and the maximum value is capped at 2850 after drift compensation.
 
-![GSR Accuracy Graph](image2.png)
+![GSR Accuracy Graph](https://github.com/Ahilnandan/Hydration_Monitoring/blob/main/test_logs/GSR/Accuracy.jpg)
 
 The above graph for GSR accuracy was plotted by using a known resistance value of 2MΩ and the expected and observed GSR values were found considering the internal resistance of the Grove GSR's voltage divider and max reading of 2850 the GSR is calculated for complete conduction.
 
