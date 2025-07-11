@@ -62,7 +62,7 @@ The following statistical parameters were found:
 
 We used a 2 MegaOhm resistor with 130 KiloOhm increments to find linearity and fit the optimal curve for comparison.
 
-![GSR Characterization Setup](image4.png)
+![GSR Characterization Setup](https://github.com/Ahilnandan/Hydration_Monitoring/blob/main/Testing_setups/GSR_testing_setup.jpg)
 
 We used this novel setup for characterizing the GSR sensors. This particular setup was used to measure the linearity of the GSR sensor.
 
@@ -71,19 +71,19 @@ The GSR sensor can take the set of whole numbers ranging from 0 to 2850.
 
 **Drift:**
 
-![GSR Drift Analysis](image5.png)
+![GSR Drift Analysis](https://github.com/Ahilnandan/Hydration_Monitoring/blob/main/drift_test_12h/GSR.jpg)
 
 Even after operating for 12 hours no significant drift was found.
 
 **Precision:**
 On testing out with the same resistance after a cool down period it was found the readings could be replicated.
 
-![GSR Precision Test](image6.png)
+![GSR Precision Test](https://github.com/Ahilnandan/Hydration_Monitoring/blob/main/test_logs/GSR/Precision_Averaged.jpg)
 
 **Hysteresis:**
 It is found that the GSR sensor lacks memory, which is a good thing. We increased the resistance and then decreased it to find that it traced its own path.
 
-![GSR Hysteresis Test](image7.png)
+![GSR Hysteresis Test](https://github.com/Ahilnandan/Hydration_Monitoring/blob/main/test_logs/GSR/Hysterisis.jpg)
 
 ## DHT22
 
@@ -93,7 +93,7 @@ The **DHT22** is a digital sensor used to measure **ambient temperature** and **
 
 **Setup:**
 
-![DHT22 Humidity Test Setup](image8.png)
+![DHT22 Humidity Test Setup](https://github.com/Ahilnandan/Hydration_Monitoring/blob/main/Testing_setups/Sealed_Humidity_chamber.jpg)
 
 The above setup was used. A sealed container containing saturated table salt solution maintains a relative humidity of 75.5 percent, no matter what the ambient conditions are. Hence, we plotted the graphs for comparing the accuracy of DHT22 vs BME680.
 
