@@ -97,7 +97,7 @@ The **DHT22** is a digital sensor used to measure **ambient temperature** and **
 
 The above setup was used. A sealed container containing saturated table salt solution maintains a relative humidity of 75.5 percent, no matter what the ambient conditions are. Hence, we plotted the graphs for comparing the accuracy of DHT22 vs BME680.
 
-![DHT22 vs BME680 Humidity Comparison](image9.png)
+![DHT22 vs BME680 Humidity Comparison](https://github.com/Ahilnandan/Hydration_Monitoring/blob/main/test_logs/DHT22/Humidity_Accuracy.jpg)
 
 Above 70 percent it was noticed that the DHT22 and BME680 don't follow each other but below 70 percent they follow each other. There is a fixed deviation of 4.5 percent.
 
